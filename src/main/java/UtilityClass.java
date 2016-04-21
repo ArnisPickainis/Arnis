@@ -5,8 +5,9 @@ public class UtilityClass
 
     private UtilityClass () { }
 
-
+int x =0;
     public static String concatWords(String ... words) 
+            
     {
         StringBuilder buf = new StringBuilder();
         for (String word : words) 
